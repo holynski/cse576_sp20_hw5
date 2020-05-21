@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "uwimg++", "cse576-hw5.vcxproj", "{03FA4B80-EFC9-40FD-8920-657F411B2043}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test2", "test2\test2.vcxproj", "{66576FA2-8236-4A2E-9755-E4B3CAF014E5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{03FA4B80-EFC9-40FD-8920-657F411B2043} = {03FA4B80-EFC9-40FD-8920-657F411B2043}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test1", "test1\test1.vcxproj", "{03F7DE6B-EB10-4A03-8F34-3A6B8FF7B237}"
+	ProjectSection(ProjectDependencies) = postProject
+		{03FA4B80-EFC9-40FD-8920-657F411B2043} = {03FA4B80-EFC9-40FD-8920-657F411B2043}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test5", "test5\test5.vcxproj", "{0ED721F5-0058-4148-94E2-EE5A99C6A13E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{03FA4B80-EFC9-40FD-8920-657F411B2043} = {03FA4B80-EFC9-40FD-8920-657F411B2043}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pango-projection", "pango-projection\pango-projection.vcxproj", "{5757E4FD-E207-459C-BD62-EC2C98B75ED4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{03FA4B80-EFC9-40FD-8920-657F411B2043} = {03FA4B80-EFC9-40FD-8920-657F411B2043}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pango-harris", "pango-harris\pango-harris.vcxproj", "{F7E4F5F6-3FF5-4E96-84E4-61217BEBFF20}"
+	ProjectSection(ProjectDependencies) = postProject
+		{03FA4B80-EFC9-40FD-8920-657F411B2043} = {03FA4B80-EFC9-40FD-8920-657F411B2043}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pango-panorama", "pango-panorama\pango-panorama.vcxproj", "{FE9D33DE-D4D7-495D-9C28-93BF5F5222E5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{03FA4B80-EFC9-40FD-8920-657F411B2043} = {03FA4B80-EFC9-40FD-8920-657F411B2043}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "make-panorama", "make-panorama\make-panorama.vcxproj", "{1ADDFCC7-41E8-475E-BC87-5ABE7113AA49}"
+	ProjectSection(ProjectDependencies) = postProject
+		{03FA4B80-EFC9-40FD-8920-657F411B2043} = {03FA4B80-EFC9-40FD-8920-657F411B2043}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03FA4B80-EFC9-40FD-8920-657F411B2043}.Release|x64.ActiveCfg = Release|x64
+		{03FA4B80-EFC9-40FD-8920-657F411B2043}.Release|x64.Build.0 = Release|x64
+		{66576FA2-8236-4A2E-9755-E4B3CAF014E5}.Release|x64.ActiveCfg = Release|x64
+		{66576FA2-8236-4A2E-9755-E4B3CAF014E5}.Release|x64.Build.0 = Release|x64
+		{03F7DE6B-EB10-4A03-8F34-3A6B8FF7B237}.Release|x64.ActiveCfg = Release|x64
+		{03F7DE6B-EB10-4A03-8F34-3A6B8FF7B237}.Release|x64.Build.0 = Release|x64
+		{0ED721F5-0058-4148-94E2-EE5A99C6A13E}.Release|x64.ActiveCfg = Release|x64
+		{0ED721F5-0058-4148-94E2-EE5A99C6A13E}.Release|x64.Build.0 = Release|x64
+		{5757E4FD-E207-459C-BD62-EC2C98B75ED4}.Release|x64.ActiveCfg = Release|x64
+		{5757E4FD-E207-459C-BD62-EC2C98B75ED4}.Release|x64.Build.0 = Release|x64
+		{F7E4F5F6-3FF5-4E96-84E4-61217BEBFF20}.Release|x64.ActiveCfg = Release|x64
+		{F7E4F5F6-3FF5-4E96-84E4-61217BEBFF20}.Release|x64.Build.0 = Release|x64
+		{FE9D33DE-D4D7-495D-9C28-93BF5F5222E5}.Release|x64.ActiveCfg = Release|x64
+		{FE9D33DE-D4D7-495D-9C28-93BF5F5222E5}.Release|x64.Build.0 = Release|x64
+		{1ADDFCC7-41E8-475E-BC87-5ABE7113AA49}.Release|x64.ActiveCfg = Release|x64
+		{1ADDFCC7-41E8-475E-BC87-5ABE7113AA49}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {33436275-6D3C-40FC-A565-2CAA00F6CCF8}
+	EndGlobalSection
+EndGlobal
